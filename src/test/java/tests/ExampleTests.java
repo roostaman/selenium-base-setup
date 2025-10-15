@@ -12,12 +12,9 @@ public class ExampleTests extends BaseTest {
     public void testGoogle() {
         WebDriver driver = getDriver();
 
-        driver.get("https://www.google.com");
+        driver.get("https://practice-automation.com/");
 
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException ignored) {
-        }
+
     }
 
     @Disabled
